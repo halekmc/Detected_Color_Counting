@@ -1,11 +1,12 @@
 # Detected_Color_Counting
 
+![image](https://user-images.githubusercontent.com/59288230/132953374-9ecbd298-f005-4f59-ae43-a17e39e24f16.png)
 
 [TR]
 
-Bu projede kırmızı nesnenin tanınması ve tanınan nesnenin sayılması yapılmıştır. Sayılan rengi değiştirmek için up_red ve lower_red değişkenlerindeki değerler değiştirilebilir. Sayma esnasında belirtilen bekleme değeri 2 saniyedir, bunu sleep() komutu içerisinden değiştirebilirsiniz. 
+Bu projede kÄ±rmÄ±zÄ± nesnenin tanÄ±nmasÄ± ve tanÄ±nan nesnenin sayÄ±lmasÄ± yapÄ±lmÄ±ÅŸtÄ±r. SayÄ±lan rengi deÄŸiÅŸtirmek iÃ§in up_red ve lower_red deÄŸiÅŸkenlerindeki deÄŸerler deÄŸiÅŸtirilebilir. Sayma esnasÄ±nda belirtilen bekleme deÄŸeri 2 saniyedir, bunu sleep() komutu iÃ§erisinden deÄŸiÅŸtirebilirsiniz. 
 
-Herhangi bir sorunuz olursa bana twitter: @halekmc ve halekmc@gmail.com adreslerinden ulaşabilirsiniz.
+Herhangi bir sorunuz olursa bana twitter: @halekmc ve halekmc@gmail.com adreslerinden ulaÅŸabilirsiniz.
 
 
 [EN]
