@@ -32,7 +32,6 @@ while True:
     mask=cv2.inRange(hsv, lower_red, up_red)
     res = cv2.bitwise_and(frame, frame, mask=mask)
 
-    subtract = cv2.bgsegm.createBackgroundSubtractorMOG()
     ret, frame1 = cap.read()
     tempo = float(1/delay)
     sleep(tempo) 
@@ -43,8 +42,8 @@ while True:
     for(i, c) in enumerate(contour):
         (x, y, w, h) = cv2.boundingRect(c)
         cv2.rectangle(frame1, (x,y), (x+w,y+h), (255, 0, 255))
-        validate_contorno = (w >= 80) and (h >= 60)
-        if not validate_contorno:
+        validatecontour = (w >= 80) and (h >= 60)
+        if not validatecontour:
             continue
 
         center = center_find(x, y, w, h)
